@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/admin_crearActivCSS.css">
+</head>
+<body>
+    <div id="navegador">
+        <div id="lista">
+            <ul >
+                <li>
+                    <a href="#" id="actividades">Horas Sociales</a>
+                </li>
+                <li>
+                    <a href="#">Estudiantes</a>
+                </li>
+            </ul> 
+        </div>
+        <div id="panel_salir">
+            <label>Coordinadora</label>
+            <button id="salir">Salir</button>
+        </div>
+    </div>
+    <div id="center">
+        <div id="titulo_actividades">
+            <label for="">CREAR ACTIVIDAD</label>
+        </div>
+        
+        <table >
+              <tr>
+                <td>
+                  <label for="">Actividad</label>
+                  <input type="text">
+                </td>
+                <td>
+                  <label for="">Lugar de Encuentro</label>
+                  <input type="text">
+                </td>
+              </tr>
+        </table>
+        <table >
+          <tr>
+            <td>
+              <label for="">Tipo Actividad</label>
+              <select name="tipo" id="tipo_activ">
+                <option value="" selected disabled></option>
+                <option value="Formulario">Formulario</option>
+                <option value="Simple">Simple</option>
+              </select>
+            </td>
+            <td>
+              <label for="">Cupo</label>
+              <input type="number">
+            </td>
+            <td>
+              <label for="">Numero de Horas</label>
+              <input type="number">
+            </td>
+          </tr>
+        </table>
+        <table >
+          <tr>
+            <td>
+              <label for="">Fecha Inicio</label>
+              <input type="datetime-local">
+            </td>
+            <td>
+              <label for="">Fecha Fin</label>
+              <input type="datetime-local">
+            </td>
+          </tr>
+        </table>
+    
+
+        <button id="crear_activ">Crear</button>
+    </div>
+    <script src="../JavaScript/admin_crearActivJS.js"></script>
+</body>
+</html>

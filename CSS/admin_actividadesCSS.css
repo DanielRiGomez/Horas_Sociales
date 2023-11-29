@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    top: 10vh;
+}
+#navegador {
+    background: yellow;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+}
+#navegador *{
+    display: inline;
+}
+
+#lista {
+    position: fixed;
+    height: 4vh;
+    padding: 3vh;
+}
+
+#navegador ul{
+    list-style-type: none;
+}
+
+#navegador li {
+    padding: 1vh;
+    margin-right: 1vh;
+    background: #eeeeee;
+    border: 1px solid #ccc;
+    
+ }
+
+a{
+    text-decoration: none;
+}
+
+#navegador li:hover {
+    background: red;
+    border: 1px solid #ccc;
+}
+
+#panel_salir {
+    float: right;
+    margin: 3vh;
+}
+
+#center {
+    padding-top: 15vh;
+    text-align: center;
+}
+
+#titulo_actividades{
+    margin-bottom: 3vh;
+}
+
+table {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 1vh;
+    width: 80vw;
+}
+
+td, th {
+    border-collapse: collapse;
+    border: 1px solid black ;
+    padding: 1vh;
+}
